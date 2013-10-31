@@ -18,3 +18,10 @@ mod 'puppetlabs/stdlib', '3.2.0'
 mod 'puppetlabs/vcsrepo', '0.1.1'
 mod 'puppetlabs/concat', '1.0.0'
 mod 'stahnma/epel', '0.0.5'
+
+# Install TheForeman TheForeman modules require that the postresql module is less then 3.0
+mod 'theforeman/foreman', '1.3.0'
+mod 'theforeman/apache', '1.3.0'
+mod 'theforeman/concat_native', '1.3.0'
+mod 'theforeman/passenger', '1.3.0'
+mod 'puppetlabs/postgresql', '2.5.0'
