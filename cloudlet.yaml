@@ -1,11 +1,11 @@
 --- # nepho-example
-name: example
+name: theforeman
 version: 0.0.1
 format: 1
-source: git@github.com:cloudlets/nepho-example.git
+source: git@github.com:tfhartmann/cloudlet-theforeman.git
 author: Harvard University Information Technology
 license: MIT
-summary: An example cloudlet that provides a base Vagrant box.
+summary: An example cloudlet that provides a Vagrant box running The Foreman.
 description: >
   This example cloudlet shows how to create and structure your own cloudlets. It
   currently includes runnable Vagrant configuration, and may be expanded in the
